@@ -1,0 +1,3 @@
+Das Repository enthält alle Abgaben für den Kurs Entwicklung MM im SoSe 2020.
+
+Autor: Selina Wernike
