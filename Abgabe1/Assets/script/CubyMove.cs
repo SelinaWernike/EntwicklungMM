@@ -25,7 +25,7 @@ public class CubyMove : MonoBehaviour
         
        transform.Translate(move * Time.deltaTime); 
     }
-    
+    //Rotation des Würfels
     private void rotating() {
         float moveCamHorizontal = Input.GetAxis("CamHorizontal");
        float moveCamVertical = Input.GetAxis("CamVertical");

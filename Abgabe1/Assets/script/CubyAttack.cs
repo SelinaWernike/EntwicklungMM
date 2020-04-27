@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CubyAttack : MonoBehaviour
 {
+    private int killCount = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,11 +16,12 @@ public class CubyAttack : MonoBehaviour
     {
         
     }
-
+//Zerstoert Objekte mit dem Tag "Destroyable" und zählt die zerstörten Objekte
 private void OnCollisionEnter(Collision other) {
     if(other.gameObject.tag == "Destroyable") {
     Destroy(other.gameObject);
-
+    killCount++;
+    Debug.Log("Besiegt: " + killCount);
     }
 }
 }

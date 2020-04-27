@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 8360858233100484653}
   - component: {fileID: 1811955197}
   - component: {fileID: 9455395}
+  - component: {fileID: 2949384681185707964}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Destroyable
@@ -397,5 +398,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21987e7df4624be4dbf94a4c615b9ff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2949384681185707964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8374056959337863802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8096793d9c4d2884c93df7de63668a8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

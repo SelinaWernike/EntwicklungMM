@@ -21,7 +21,7 @@ public class kamera : MonoBehaviour
         startPosition = transform.rotation;
         endPosition = myFollow.rotation;
         
-        
+        //Slerp Funktion
         t += (Time.deltaTime)/5;
         transform.rotation = Quaternion.Slerp(startPosition,endPosition,t);
 
