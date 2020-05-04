@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
-  productGUID: 00000000000000000000000000000000
+  productGUID: 89a231e8c335f444090e589caf287a60
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -962,7 +962,7 @@ PlayerSettings:
   apiCompatibilityLevel: 3
   cloudProjectId: 00ad5fb1-be82-4540-8f64-ecbca59ba357
   framebufferDepthMemorylessMode: 0
-  projectName: 
+  projectName: Abgabe1
   organizationId: selinaw
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
