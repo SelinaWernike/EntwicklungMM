@@ -13,7 +13,7 @@ public class PrefabRan : MonoBehaviour
         
         for(int i = 0; i <= Random.Range(1,10); i++) {
 
-       GameObject go = Instantiate(myPrefab,new Vector3(Random.Range(-10.0f,10.0f),1,Random.Range(-10.0f,10.0f)), Quaternion.Euler(0,Random.Range(0,360),0)) as GameObject;
+       GameObject go = Instantiate(myPrefab,new Vector3(Random.Range(-2.0f,2.0f),0.1f,Random.Range(-2.0f,2.0f)), Quaternion.Euler(0,Random.Range(0,360),0)) as GameObject;
        if(Random.Range(0,4) <= 2.0f) {
        go.AddComponent<humanRot>(); 
        }
