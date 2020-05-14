@@ -11,7 +11,7 @@ public class kamera : MonoBehaviour
      private Vector3 fixedCamera;
      private Quaternion fixedAngle;
      private bool followPlayer = false;
-     private float t = 0;
+     private float t = 0.1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +33,6 @@ public class kamera : MonoBehaviour
         endPosition = myFollow.rotation;
         
         //Slerp Funktion
-        t = 0.1f;
         transform.rotation = Quaternion.Slerp(startPosition,endPosition,t);
         Vector3 offsetRotation = myFollow.rotation * offsetVector;
         transform.position = myFollow.position + offsetRotation;

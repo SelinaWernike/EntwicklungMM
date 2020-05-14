@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CubyAttack : MonoBehaviour
 {
-    private int killCount = 0;
+    private int counter = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +20,8 @@ public class CubyAttack : MonoBehaviour
 private void OnCollisionEnter(Collision other) {
     if(other.gameObject.tag == "Destroyable") {
     Destroy(other.gameObject);
-    killCount++;
-    Debug.Log("Besiegt: " + killCount);
+    counter++;
+    Debug.Log("Freundschaft geschlossen: " + counter);
     }
 }
 }
