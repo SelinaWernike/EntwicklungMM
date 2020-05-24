@@ -325,9 +325,10 @@ GameObject:
   - component: {fileID: 216719802}
   - component: {fileID: 216719801}
   - component: {fileID: 216719800}
-  - component: {fileID: 216719799}
   - component: {fileID: 216719804}
   - component: {fileID: 216719805}
+  - component: {fileID: 216719806}
+  - component: {fileID: 216719799}
   m_Layer: 0
   m_Name: Cuby
   m_TagString: Untagged
@@ -344,9 +345,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 216719798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5731f0468e7943b4aa0f2f2590cb5e15, type: 3}
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConversionMode: 0
 --- !u!65 &216719800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -450,6 +452,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6d01f75456419f47bc4429dd14c642a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &216719806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216719798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb838acd4b42e241841455dcdd88764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  rotationAngle: 0
 --- !u!1 &438518822
 GameObject:
   m_ObjectHideFlags: 0
