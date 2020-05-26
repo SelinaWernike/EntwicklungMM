@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 1343316718556589935}
   - component: {fileID: 8360858233100484653}
   - component: {fileID: 1811955197}
-  - component: {fileID: 2949384681185707964}
+  - component: {fileID: 7120711847786434868}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Destroyable
@@ -504,7 +504,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2949384681185707964
+--- !u!114 &7120711847786434868
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -513,6 +513,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8374056959337863802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8096793d9c4d2884c93df7de63668a8d, type: 3}
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConversionMode: 0
